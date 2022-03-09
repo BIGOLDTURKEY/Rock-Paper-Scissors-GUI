@@ -130,7 +130,7 @@ def startloop():
 next = pygame.image.load("right-arrow.png")
 nextb = button.Button(1100, 570, next, "white")
 
-close = pygame.image.load("close.png")
+close = pygame.image.load("close.svg")
 closeb = button.Button(50, 570, close, "white")
 
 c_list = [rock, paper, scissors]
@@ -272,7 +272,7 @@ text_rect6a.center = (640, 50)
 restart = pygame.image.load("restart.png")
 restartb = button.Button(182.86, 360, restart, "white")
 
-close1 = pygame.image.load("close.png")
+close1 = pygame.image.load("close.svg")
 closeb1 = button.Button(969.14, 360, close1, "white")
 
 def restartloop():
